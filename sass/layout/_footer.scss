@@ -150,12 +150,14 @@
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .footer-address {
     margin-left: 61px;
     margin-right: 165px;
     margin-bottom: 60px;
   }
+}
+@media screen and (max-width: 1199px) {
   .footer-social__title {
     text-align: center;
   }

@@ -802,7 +802,6 @@ ol {
 
 .ourteam {
   background: #f5f4fa;
-  max-width: 1600px;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1139,12 +1138,15 @@ ol {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 1199px) {
   .footer-address {
     margin-left: 61px;
     margin-right: 165px;
     margin-bottom: 60px;
   }
+}
+
+@media screen and (max-width: 1199px) {
   .footer-social__title {
     text-align: center;
   }
