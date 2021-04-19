@@ -213,6 +213,13 @@ ol {
   pointer-events: none;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
+
 .modal__text {
   font-weight: 700;
   font-size: 20px;
@@ -345,6 +352,17 @@ ol {
   color: var(--white-color);
   padding: 10px 55px;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .modal__text {
+    font-weight: 700;
+    line-height: 1.15;
+  }
+  .modal-form__check-desc {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .modal__btn {
