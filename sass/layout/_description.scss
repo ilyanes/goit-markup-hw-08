@@ -22,7 +22,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
-  text-align: center;
 }
 .description-list__text {
   font-size: 14px;
@@ -36,6 +35,9 @@
     &:not(:last-child) {
       margin-bottom: 30px;
     }
+  }
+  .description-list__title {
+    text-align: center;
   }
 }
 @media screen and (min-width: 768px) {
