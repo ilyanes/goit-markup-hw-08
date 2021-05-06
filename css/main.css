@@ -631,6 +631,7 @@ ol {
 .hero {
   margin: 0 auto;
   height: 400px;
+  width: 480px;
   padding-top: 118px;
   padding-bottom: 118px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/mobile/main/hero.jpg");
@@ -658,6 +659,7 @@ ol {
 
 @media screen and (min-width: 768px) {
   .hero {
+    width: 768px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/tablet/main/hero.jpg");
     background-size: cover;
   }
@@ -671,6 +673,7 @@ ol {
 
 @media screen and (min-width: 1200px) {
   .hero {
+    width: 1600px;
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -1139,6 +1142,14 @@ ol {
 @media screen and (max-width: 767px) {
   .footer .container {
     flex-direction: column;
+  }
+  .footer-address {
+    margin-bottom: 60px;
+  }
+  .footer-social {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
   }
 }
 
